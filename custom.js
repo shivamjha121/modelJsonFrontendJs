@@ -1,5 +1,5 @@
 // constants 
-base_url = "http://65.0.201.115/api/v1/";
+base_url = "http://65.0.201.115/api/v1";
 
 
 

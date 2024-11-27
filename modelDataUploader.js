@@ -370,7 +370,7 @@ addTodbButton.addEventListener("click", function () {
     }
 
     // Make the fetch request with multipart form data
-    fetch('http://65.0.201.115/api/v1/addModelJson', {
+    fetch('http://65.0.201.115/model/api/v1/addModelJson', {
       method: 'POST',
       body: formData // Send formData instead of JSON
     })

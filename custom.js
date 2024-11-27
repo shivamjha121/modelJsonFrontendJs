@@ -216,7 +216,7 @@ function validateForm() {
     const queryString = new URLSearchParams(filterParams).toString();
 
     // Construct the full URL
-    const url = `http://65.0.201.115/api/v1/addModelJson?${queryString}`;
+    const url = `http://65.0.201.115/model/api/v1/addModelJson?${queryString}`;
 
     try {
       // Fetch data from the constructed URL
